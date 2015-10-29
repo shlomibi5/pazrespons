@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	direction: rtl;
+
+}
+
+#container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+header {
+	background: url(header_bg.png);
+	height: 100px;
+}
+
+#shrge {
+	margin-right: 600px;
+}
+
+#logo {
+	position: relative;
+	right: 20px;
+	bottom: 80px;
+}
+#nav {
+	position: relative;
+	right: 200px;
+	top: 20px;
+}
+li, a {
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #ffffff;
+}
+li {
+	border-left: 2px solid;
+}
+
+#box1, #box2, #box3 {
+	float: left;
+	padding-left: 9px;
+}
+img {
+	border-radius: 0 0 20px 0;
+}
+#boxs {
+	margin-top: 20px;
+}
+
+p {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#boxa, #boxb, #boxc {
+	width: 290px;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	margin-left: 10px;
+	background: #ccc;
+}
+footer {
+	text-align: center;
+	background: url(http://www.paz.co.il/images/menu_dropdown_bg.png);
+	position: fixed;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+#fotter {
+	color: #FFFFFF;
+}
